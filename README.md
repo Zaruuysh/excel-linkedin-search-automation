@@ -1,3 +1,7 @@
+Hello, this is my first upload, I had fun:)
+
+
+
 # Excel-to-LinkedIn Search Automation | VBA + AppleScript
 
 **Personal automation and learning project | Microsoft Excel for Mac, Safari, VBA, AppleScript**
