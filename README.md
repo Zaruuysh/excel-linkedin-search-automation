@@ -6,6 +6,10 @@
 
 While working on professional outreach data at Global Insight Conferences (GIC), I found that repeatedly clicking LinkedIn search links in Excel created more and more browser tabs. This made it harder to keep searches organised while moving through a contact list.
 
+Below is the original formula is use using =HYPERLINK(
+     
+     =HYPERLINK("https://www.linkedin.com/search/results/people/?keywords="&SUBSTITUTE(TRIM(A2&" "&B2)," ","%20"),"Search LinkedIn")
+
 I implemented a workflow that combines a person's **name, company and job title** into a LinkedIn people-search URL, then reuses an existing Safari search tab. My goal was to reduce unnecessary navigation and understand how I could connect Excel with another desktop application.
 
 **My involvement:** I set up the Excel formulas, placed the VBA code into the appropriate modules, configured the AppleScript file on my MacBook, debugged the file-location issue, and confirmed that the Safari workflow worked. I used AI assistance while learning and documenting the implementation. The Windows code is included as a cross-platform option, but I have **not yet validated it on a work PC**.
